@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.legend"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.legend.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.legend.TiradaPrincipal"
+            android:label="Tiradas" >
+          </activity>
+        
+          <activity
+            android:name="com.example.legend.GeneraJugador"
+            android:label="Genera Jugador" >
+          </activity>
+          
+          <activity
+            android:name="com.example.legend.MenuCombate"
+            android:label="Menu combate" >
+          </activity>
+          
+           <activity
+            android:name="com.example.legend.CargaJugador"
+            android:label="Carga Jugador" >
+           </activity>
+           
+           <activity
+            android:name="com.example.legend.CargaFicheros"
+            android:label="Carga Ficheros" >
+           </activity>
+        
+           <activity
+            android:name="com.example.legend.CombateResultado"
+            android:label="Resultado del combate" >
+           </activity>
+        
+    </application>
+
+</manifest>

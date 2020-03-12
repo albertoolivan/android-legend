@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/portada3" >
+
+    <Button
+        android:id="@+id/buttonSimular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myClickHandlerIrSimular"
+        android:layout_marginTop="147dp"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Simulacion" />
+
+    <Button
+        android:id="@+id/buttonCargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:onClick="myClickHandlerIrCargar"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Carga jugadores" />
+
+</LinearLayout>

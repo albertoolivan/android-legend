@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/portada3"  >
+
+    <!--  
+    <Spinner
+        android:id="@+id/spinnerJugador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp" />
+    
+    <Spinner
+        android:id="@+id/spinnerJugador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp" />
+-->
+
+
+	<Button
+        android:id="@+id/buttonJugador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myClickHandlerJugador1"
+        android:layout_marginTop="147dp"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="Jugador 1" />
+
+    <Button
+        android:id="@+id/buttonJugador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonJugador1"
+        android:layout_marginTop="85dp"
+        android:onClick="myClickHandlerJugador2"
+        android:text="Jugador 2"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

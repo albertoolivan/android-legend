@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/portada2">
+    
+
+    <Button
+        android:id="@+id/buttonLanzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:onClick="myClickHandlerLanzar"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Simple" />
+   	   
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:onClick="onClickLimpia"
+        android:clickable="true"
+        android:text="" 
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+
+    <Button
+        android:id="@+id/buttonEnfrentada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:onClick="myClickHandlerLanzarEnfrentada"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Enfrentada" />
+
+    <EditText
+        android:id="@+id/editTextTirar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="32dp" 
+        android:layout_marginLeft="22dp"
+        android:ems="3"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextGuardar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp" 
+        android:layout_marginRight="22dp"
+        android:ems="3"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTirar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp" 
+        android:layout_marginLeft="22dp"
+        android:ems="3"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextGuardar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="32dp" 
+        android:layout_marginRight="22dp"
+        android:ems="3"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+   
+</RelativeLayout>

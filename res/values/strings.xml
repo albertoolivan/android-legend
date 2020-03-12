@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Legend</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+     <string-array name="lista_escuelas">
+        <item>Akodo</item>
+        <item>Matsu</item>
+        <item>Hida</item>
+        <item>Hiruma</item>
+        <item>Bayusi</item>
+        <item>Mirumoto</item>
+        <item>Shiba</item>
+        <item>Kakita</item>
+        <item>Moto</item>
+        <item>Otaku</item>
+        <item>Generico</item>
+    </string-array>
+    
+      <string-array name="lista_armas">
+		<item>11: abanico guerra</item>
+		<item>21: bisento</item>
+		<item>22: nagamaki</item>
+		<item>23: naginata</item>
+		<item>24: sashumata</item>
+		<item>25: sodegarami</item>
+		<item>31: kusarigama</item>
+		<item>32: kyoketsu-shoge</item>
+		<item>33: manrikigusari</item>
+		<item>41: dai-tsuchi</item>
+		<item>42: masakari</item>
+		<item>43: ono</item>
+		<item>44: tebsubo</item>
+		<item>51: bo / numchaku / shankau</item>
+		<item>52: ho-machekansisha</item>
+		<item>53: tonfa</item>
+		<item>61: aiguchi / tanto / jitte / shai</item>
+		<item>62: kama</item>
+		<item>71: cimitarra</item>
+		<item>72: katana</item>
+		<item>73: nodachi</item>
+		<item>74: ninjato / parangu / wakizasi</item>
+		<item>81: kumaden</item>
+		<item>82: maichon</item>
+		<item>83: nague-yari</item>
+		<item>84: yari</item>
+		<item>91: desarmado</item>
+	</string-array>
+    
+       <string-array name="lista_armaduras">
+        <item>0: Ninguna</item>
+        <item>1: Asigaru</item>
+        <item>2: Ligera</item>
+        <item>3: Pesada</item>
+   	   </string-array>
+
+</resources>

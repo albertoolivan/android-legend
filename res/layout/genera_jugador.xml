@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/portada2">
+
+    
+     
+    
+    
+    
+    
+    
+     <TextView
+        android:id="@+id/textViewFuerza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Fuerza" />
+    <EditText
+        android:id="@+id/editTextFuerza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewFuerza"
+        android:layout_marginTop="8dp"
+        android:ems="5"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+  <TextView
+        android:id="@+id/textViewAgilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextFuerza"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Agilidad" />
+    <EditText
+        android:id="@+id/editTextAgilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewAgilidad"
+        android:layout_marginTop="8dp"
+        android:ems="5"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewReflejos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextAgilidad"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Reflejos" />
+    <EditText
+        android:id="@+id/editTextReflejos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewReflejos"
+        android:layout_marginTop="8dp"
+        android:ems="5"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    
+
+    <TextView
+        android:id="@+id/textViewTierra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextReflejos"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Tierra" />
+    <EditText
+        android:id="@+id/editTextTierra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewTierra"
+        android:layout_marginTop="8dp"
+        android:ems="5"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewHonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextTierra"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Honor" />
+    <EditText
+        android:id="@+id/editTextHonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewHonor"
+        android:layout_marginTop="8dp"
+        android:ems="5"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number" />
+
+   
+
+   
+
+    <Button
+        android:id="@+id/buttonSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="myClickHandlerSiguiente"
+        android:text="Jugador2"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    
+    
+    
+    <TextView
+        android:id="@+id/textViewEscuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Escuela" />
+     <Spinner
+        android:id="@+id/spinnerEscuela"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewEscuela"
+        android:entries="@array/lista_escuelas" />
+     <Spinner
+        android:id="@+id/spinnerArma"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewArma"
+        android:entries="@array/lista_armas" />
+    <Spinner
+        android:id="@+id/spinnerArmadura"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewArmadura"
+        android:entries="@array/lista_armaduras" />
+    
+    
+    <TextView
+        android:id="@+id/textViewRango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextHonor"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="Rango"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextRango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextHonor"
+        android:layout_alignBottom="@+id/editTextHonor"
+        android:layout_alignParentLeft="true"
+        android:ems="5"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewHabilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextTierra"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:text="Habilidad"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextHabilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewHonor"
+        android:layout_alignParentLeft="true"
+        android:ems="5"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewArma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextAgilidad"
+        android:layout_alignLeft="@+id/textViewEscuela"
+        android:text="Arma"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewArmadura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewReflejos"
+        android:layout_alignBottom="@+id/textViewReflejos"
+        android:layout_alignLeft="@+id/textViewArma"
+        android:text="Armadura"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
